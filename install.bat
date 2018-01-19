@@ -1,1 +1,0 @@
-magick convert img/aiko-logo-bloodred.png -define icon:auto-resize=128,112,64,48,32,16 favicon.ico
