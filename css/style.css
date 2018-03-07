@@ -573,6 +573,17 @@ body {
   color: #333;
 }
 
+.navbar-default.affix .nav>li>a:hover,
+.navbar-default.affix .nav>li>a:active {
+  color: #000;
+  font-weight: 400;
+}
+
+.navbar-default.affix .nav>li.dropdown>a>span>img {
+  filter: invert(1);
+  -webkit-filter: invert(1);
+}
+
 .navbar-default .nav>li>a.btn,
 .navbar-default .nav>li>a:focus.btn {
   padding: 10px 20px;
