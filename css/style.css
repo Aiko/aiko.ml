@@ -584,6 +584,10 @@ body {
   -webkit-filter: invert(1);
 }
 
+.navbar-fixed-top {
+  position: absolute;
+}
+
 .navbar-default .nav>li>a.btn,
 .navbar-default .nav>li>a:focus.btn {
   padding: 10px 20px;
